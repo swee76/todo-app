@@ -1,6 +1,6 @@
 import React from 'react';
-import TodoHome from "./pages/todohome";
-// import AddTodo from "./pages/addtodo";
+// import TodoHome from "./pages/todohome";
+import AddTodo from "./pages/addtodo";
 import {BsMastodon} from 'react-icons/bs';
 import {FaUserCircle} from 'react-icons/fa'
 
@@ -16,8 +16,8 @@ const App = () => {
                   <button className={'px-2.5 py-1.5 text-sm text-amber-500 hover:text-white font-semibold rounded-lg shadow-sm border-amber-500 bg-amber-50 hover:bg-amber-500'}>Sign Up</button>
               </div>
           </div>
-        <TodoHome/>
-        {/*  <AddTodo/>*/}
+        {/* <TodoHome/> */}
+         <AddTodo/>
       </div>
   );
 };

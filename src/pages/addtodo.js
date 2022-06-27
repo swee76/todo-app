@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import AddTodoWrapper from "../components/layout/AddTodoWrapper";
@@ -12,11 +12,6 @@ const AddTodo = () => {
     const [attachmentList, setAttachmentList] = useState([]);
 
     const [counter, setCounter] = useState(1);
-
-
-    useEffect(() => {
-        console.log(attachmentList);
-    }, [attachmentList])
 
     return (
         <AddTodoWrapper>
